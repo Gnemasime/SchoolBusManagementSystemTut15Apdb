@@ -13,5 +13,7 @@ namespace SchoolBusManagementSystemTut15Apdb.Models
         public DbSet<Bus> buses { get; set; }
         public DbSet<Driver> drivers { get; set; }
         public DbSet<Trip> trips { get; set; }
+        public DbSet<BusDriverPerfomanceViewModel> driverPerfomanceViewModels { get; set; }
+       
     }
 }

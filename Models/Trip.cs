@@ -77,7 +77,7 @@ namespace SchoolBusManagementSystemTut15Apdb.Models
         {
             if(Rating>=1 && Rating <3)
             {
-                return CalcDriverSalary() - (CalcDriverSalary() * (2/100.0m))
+                return CalcDriverSalary() - (CalcDriverSalary() * (2 / 100.0m));
             }
             else
             {
